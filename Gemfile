@@ -31,6 +31,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen'
   gem 'faker', require: false # for sample data in development
+  gem 'spring-commands-rspec'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
