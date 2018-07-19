@@ -32,15 +32,15 @@ RSpec.describe Note, type: :model do
 		before do 
 			@note1 = @project.notes.create(
 				message: "This is the first note.",
-				use: @user,
+				user: @user,
 				)
 			@note2 = @project.notes.create(
 				message: "This is the second note.",
-				use: @user,
+				user: @user,
 				)
 			@note3 = @project.notes.create(
 				message: "First, preheat the oven.",
-				use: @user,
+				user: @user,
 				)
 		end
 		context "when a match is found" do 

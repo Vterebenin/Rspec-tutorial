@@ -1,11 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
-  description: MyText
-  due_on: 2017-04-28
+death_start:
+  name: "Death Star"
+  description: "Create the universe's ultimate battle station"
+  due_on: 2018-07-19
 
-two:
-  name: MyString
-  description: MyText
-  due_on: 2017-04-28
+rogue_one:
+  name: "Steal Death Start plans"
+  description: "Destroy the Empires's new battle station"
+  due_on: 2018-07-19
+
+
